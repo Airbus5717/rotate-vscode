@@ -1,0 +1,25 @@
+{
+    "name": "rotate-programming-language",
+    "displayName": "Rotate programming language",
+    "description": "Syntax highlighter for rotate programming language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rotate",
+            "aliases": ["Rotate programming language", "rotate"],
+            "extensions": [".vr"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rotate",
+            "scopeName": "source.vr",
+            "path": "./syntaxes/rotate.tmLanguage.json"
+        }]
+    }
+}

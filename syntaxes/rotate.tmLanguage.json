@@ -1,0 +1,72 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Rotate programming language",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#chars"
+		},
+		{
+			"include": "#datatypes"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.block.documentation.rotate",
+					"begin": "///",
+					"end": "\n"
+				},
+				{
+					"name": "comment.line.rotate",
+					"begin": "//",
+					"end": "\n"
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.rotate",
+					"match": "\\b(if|while|fn|for|return|import|pub|else|foreach|as|match|let|mut|break)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.rotate",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.rotate",
+					"match": "\\\\."
+				}
+			]
+		},
+		"chars": {
+			"name": "char.quoted.single.rotate",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.rotate",
+					"match": "[\\w\\s]+"
+				}
+			]
+		},
+		"datatypes": {
+			"name": "storage.type.rotate",
+			"match": "\\b(int|float|str|char|true|false|bool)\\b"
+		}
+	},
+	"scopeName": "source.vr"
+}
