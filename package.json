@@ -1,8 +1,12 @@
 {
-    "name": "rotate-programming-language",
-    "displayName": "Rotate programming language",
+    "name": "rotate-vscode",
+    "displayName": "Rotate",
     "description": "Syntax highlighter for rotate programming language",
-    "version": "0.0.1",
+    "repository": {
+        "url":"https://github.com/rotate-lang/rotate-vscode"
+    },
+    "publisher": "Airbus5717",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.58.0"
     },
@@ -10,16 +14,31 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "rotate",
-            "aliases": ["Rotate programming language", "rotate"],
-            "extensions": [".vr"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "rotate",
-            "scopeName": "source.vr",
-            "path": "./syntaxes/rotate.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "rotate",
+                "aliases": [
+                    "Rotate programming language",
+                    "rotate"
+                ],
+                "extensions": [
+                    ".vr"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "rotate",
+                "scopeName": "source.vr",
+                "path": "./syntaxes/rotate.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "rotate",
+                "path": "./snippets/snippets.json"
+            }
+        ]
     }
 }

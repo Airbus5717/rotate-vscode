@@ -16,6 +16,9 @@
 		},
 		{
 			"include": "#datatypes"
+		},
+		{
+			"include": "#numbers"
 		}
 	],
 	"repository": {
@@ -47,13 +50,13 @@
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.rotate",
+					"name": "constant.string.escape.rotate",
 					"match": "\\\\."
 				}
 			]
 		},
 		"chars": {
-			"name": "char.quoted.single.rotate",
+			"name": "string.quoted.single.rotate",
 			"begin": "'",
 			"end": "'",
 			"patterns": [
@@ -66,6 +69,18 @@
 		"datatypes": {
 			"name": "storage.type.rotate",
 			"match": "\\b(int|float|str|char|true|false|bool)\\b"
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.float.zig",
+					"match": "\\b[0-9][0-9_]*(\\.[0-9][0-9_]*)?([eE][+-]?[0-9_]+)?\\b"
+				},
+				{
+					"name": "constant.numeric.decimal.zig",
+					"match": "\\b[0-9][0-9_]*\\b"
+				}
+			]
 		}
 	},
 	"scopeName": "source.vr"
