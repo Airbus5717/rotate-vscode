@@ -1,3 +1,3 @@
 # Rotate Programming Language VSCode Extension
 
-WIP
+WIP (Syntax Coloring only atm)
