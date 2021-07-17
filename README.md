@@ -1,4 +1,4 @@
-# rotate-programming-language README
+# Rotate Programming Language VSCode Extension
 
 This is the README for your extension "rotate-programming-language". After writing up a brief description, we recommend including the following sections.
 
