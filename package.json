@@ -6,7 +6,7 @@
         "url":"https://github.com/rotate-lang/rotate-vscode"
     },
     "publisher": "Airbus5717",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.58.0"
     },

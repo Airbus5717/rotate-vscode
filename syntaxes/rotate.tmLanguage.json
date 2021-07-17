@@ -25,14 +25,14 @@
 		"comments": {
 			"patterns": [
 				{
-					"name": "comment.block.documentation.rotate",
-					"begin": "///",
-					"end": "\n"
-				},
-				{
 					"name": "comment.line.rotate",
 					"begin": "//",
 					"end": "\n"
+				},
+				{
+					"name": "comment.block.rotate",
+					"begin": "/((?!\\*/)\\*)+",
+					"end": "\\*+/"
 				}
 			]
 		},
