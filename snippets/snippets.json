@@ -3,7 +3,6 @@
         "scope": "rotate",
         "prefix": "main",
         "body": [
-            "import std.io;\n",
             "fn main(args[]: str) {",
             "\t$0",
             "}"

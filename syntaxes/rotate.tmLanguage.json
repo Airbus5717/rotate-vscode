@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Rotate programming language",
+	"name": "Rotate",
 	"patterns": [
 		{
 			"include": "#comments"
@@ -12,7 +12,7 @@
 			"include": "#strings"
 		},
 		{
-			"include": "#chars"
+			"include": "#character"
 		},
 		{
 			"include": "#datatypes"

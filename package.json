@@ -18,8 +18,7 @@
             {
                 "id": "rotate",
                 "aliases": [
-                    "Rotate programming language",
-                    "rotate"
+                    "Rotate"
                 ],
                 "extensions": [
                     ".vr"
