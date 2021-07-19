@@ -3,10 +3,10 @@
     "displayName": "Rotate",
     "description": "Syntax highlighter for rotate programming language",
     "repository": {
-        "url":"https://github.com/rotate-lang/rotate-vscode"
+        "url":"https://github.com/Airbus5717/rotate-vscode/"
     },
     "publisher": "Airbus5717",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.58.0"
     },

@@ -2,5 +2,8 @@ run:
 	@echo "requires vsce, make and npm"
 
 pkg:
-	-rm $(wildcard *.vsix)
+	@make clean
 	-vsce package
+
+clean: $(wildcard *.vsix)
+	@rm $(wildcard *.vsix)

@@ -4,6 +4,10 @@ All notable changes to the "rotate-programming-language" extension will be docum
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.4]
+
+- Update repo link
+
 ## [0.0.3]
 
 - MultiLine comments
