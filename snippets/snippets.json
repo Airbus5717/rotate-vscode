@@ -3,7 +3,7 @@
         "scope": "rotate",
         "prefix": "main",
         "body": [
-            "fn main(args[]: str) {",
+            "fn main() int {",
             "\t$0",
             "}"
         ],
